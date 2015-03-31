@@ -39,6 +39,7 @@
 		393DA5FF1ACB175800AB8378 /* CalendracTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CalendracTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		393DA6041ACB175800AB8378 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		393DA6051ACB175800AB8378 /* CalendracTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendracTests.swift; sourceTree = "<group>"; };
+		393DA60F1ACB1AE300AB8378 /* Calendrac-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Calendrac-Bridging-Header.h"; sourceTree = "<group>"; };
 		A693D5DC831913EDF04A0119 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -99,6 +100,7 @@
 				393DA5F61ACB175800AB8378 /* Images.xcassets */,
 				393DA5F81ACB175800AB8378 /* LaunchScreen.xib */,
 				393DA5ED1ACB175800AB8378 /* Supporting Files */,
+				393DA60F1ACB1AE300AB8378 /* Calendrac-Bridging-Header.h */,
 			);
 			path = Calendrac;
 			sourceTree = "<group>";
@@ -396,9 +398,12 @@
 			baseConfigurationReference = 16092E827C7598160A34CF23 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = Calendrac/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Calendrac/Calendrac-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -407,9 +412,11 @@
 			baseConfigurationReference = 353684E44FB71103EE6A4679 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = Calendrac/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Calendrac/Calendrac-Bridging-Header.h";
 			};
 			name = Release;
 		};

@@ -50,7 +50,7 @@ class ViewController: UIViewController {
     calendar.calendarAppearance.dayDotColorSelectedOtherMonth = UIColor.blackColor()
     calendar.calendarAppearance.dayDotColorToday = UIColor.darkGrayColor()
     calendar.calendarAppearance.dayDotColorTodayOtherMonth = UIColor.darkGrayColor()
-    calendar.calendarAppearance.dayDotRatio = 0.35
+    calendar.calendarAppearance.dayDotRatio = 0.3
     
     calendar.calendarAppearance.dayTextColor = UIColor.grayColor()
     calendar.calendarAppearance.dayTextColorSelected = UIColor.blackColor()

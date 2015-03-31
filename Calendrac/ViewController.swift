@@ -46,7 +46,11 @@ class ViewController: UIViewController {
     calendar.calendarAppearance.dayCircleColorSelected = UIColor.blueColor()
     calendar.calendarAppearance.dayCircleColorSelectedOtherMonth = UIColor.blueColor()
     
-    calendar.calendarAppearance.dayTextColorSelected = UIColor.whiteColor()
+    calendar.calendarAppearance.dayDotColor = UIColor.darkGrayColor()
+    calendar.calendarAppearance.dayDotColorSelected = UIColor.blackColor()
+    calendar.calendarAppearance.dayDotRatio = 0.3
+    
+    calendar.calendarAppearance.dayTextColorSelected = UIColor.grayColor()
     
   }
   
@@ -54,7 +58,7 @@ class ViewController: UIViewController {
     calendar.menuMonthsView = menuMonthsView
     calendar.contentView = contentView
     calendar.reloadData()
-//    calendar.reloadAppearance()
+    calendar.reloadAppearance()
   }
 
   override func didReceiveMemoryWarning() {
@@ -85,7 +89,7 @@ extension ViewController: JTCalendarDataSource {
   
   func calendarHaveEvent(calendar: JTCalendar!, date: NSDate!) -> Bool {
     //
-    return false
+    return true
   }
 }
 

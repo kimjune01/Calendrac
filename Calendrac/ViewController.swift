@@ -42,16 +42,24 @@ class ViewController: UIViewController {
 
     calendar.calendarAppearance.dayCircleColorToday = UIColor.lightGrayColor()
     calendar.calendarAppearance.dayCircleColorTodayOtherMonth = UIColor.lightGrayColor()
-    
-    calendar.calendarAppearance.dayCircleColorSelected = UIColor.blueColor()
-    calendar.calendarAppearance.dayCircleColorSelectedOtherMonth = UIColor.blueColor()
+    calendar.calendarAppearance.dayCircleColorSelected = UIColor.redColor()
+    calendar.calendarAppearance.dayCircleColorSelectedOtherMonth = UIColor.redColor()
     
     calendar.calendarAppearance.dayDotColor = UIColor.darkGrayColor()
     calendar.calendarAppearance.dayDotColorSelected = UIColor.blackColor()
-    calendar.calendarAppearance.dayDotRatio = 0.3
+    calendar.calendarAppearance.dayDotColorSelectedOtherMonth = UIColor.blackColor()
+    calendar.calendarAppearance.dayDotColorToday = UIColor.darkGrayColor()
+    calendar.calendarAppearance.dayDotColorTodayOtherMonth = UIColor.darkGrayColor()
+    calendar.calendarAppearance.dayDotRatio = 0.35
     
-    calendar.calendarAppearance.dayTextColorSelected = UIColor.grayColor()
-    
+    calendar.calendarAppearance.dayTextColor = UIColor.grayColor()
+    calendar.calendarAppearance.dayTextColorSelected = UIColor.blackColor()
+    calendar.calendarAppearance.dayTextColorSelectedOtherMonth = UIColor.lightGrayColor()
+    calendar.calendarAppearance.dayTextColorToday = UIColor.grayColor()
+    calendar.calendarAppearance.dayTextColorTodayOtherMonth = UIColor.lightGrayColor()
+    calendar.calendarAppearance.dayTextColorOtherMonth = UIColor.lightGrayColor()
+    calendar.calendarAppearance.dayTextFont = UIFont(name: "Helvetica", size: 24)
+    calendar.calendarAppearance.dayFormat = "d"
   }
   
   func refreshCalendar() {

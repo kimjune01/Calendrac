@@ -13,6 +13,8 @@
 		393DA5F71ACB175800AB8378 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 393DA5F61ACB175800AB8378 /* Images.xcassets */; };
 		393DA5FA1ACB175800AB8378 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 393DA5F81ACB175800AB8378 /* LaunchScreen.xib */; };
 		393DA6061ACB175800AB8378 /* CalendracTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 393DA6051ACB175800AB8378 /* CalendracTests.swift */; };
+		39D740AC1ACB51790075F801 /* gotham.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 39D740AB1ACB51790075F801 /* gotham.ttf */; };
+		39D740AD1ACB52900075F801 /* gotham.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 39D740AB1ACB51790075F801 /* gotham.ttf */; };
 		48F3981D5C1251CA22EBD255 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A693D5DC831913EDF04A0119 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -40,6 +42,7 @@
 		393DA6041ACB175800AB8378 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		393DA6051ACB175800AB8378 /* CalendracTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendracTests.swift; sourceTree = "<group>"; };
 		393DA60F1ACB1AE300AB8378 /* Calendrac-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Calendrac-Bridging-Header.h"; sourceTree = "<group>"; };
+		39D740AB1ACB51790075F801 /* gotham.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = gotham.ttf; sourceTree = "<group>"; };
 		A693D5DC831913EDF04A0119 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -108,6 +111,7 @@
 		393DA5ED1ACB175800AB8378 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				39D740AB1ACB51790075F801 /* gotham.ttf */,
 				393DA5EE1ACB175800AB8378 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -221,6 +225,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				393DA5F51ACB175800AB8378 /* Main.storyboard in Resources */,
+				39D740AC1ACB51790075F801 /* gotham.ttf in Resources */,
 				393DA5FA1ACB175800AB8378 /* LaunchScreen.xib in Resources */,
 				393DA5F71ACB175800AB8378 /* Images.xcassets in Resources */,
 			);
@@ -230,6 +235,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				39D740AD1ACB52900075F801 /* gotham.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

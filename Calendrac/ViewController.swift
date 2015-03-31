@@ -50,7 +50,7 @@ class ViewController: UIViewController {
     calendar.calendarAppearance.dayDotColorSelectedOtherMonth = UIColor.blackColor()
     calendar.calendarAppearance.dayDotColorToday = UIColor.darkGrayColor()
     calendar.calendarAppearance.dayDotColorTodayOtherMonth = UIColor.darkGrayColor()
-    calendar.calendarAppearance.dayDotRatio = 0.3
+    calendar.calendarAppearance.dayDotRatio = 0.35
     
     calendar.calendarAppearance.dayTextColor = UIColor.grayColor()
     calendar.calendarAppearance.dayTextColorSelected = UIColor.blackColor()
@@ -58,7 +58,7 @@ class ViewController: UIViewController {
     calendar.calendarAppearance.dayTextColorToday = UIColor.grayColor()
     calendar.calendarAppearance.dayTextColorTodayOtherMonth = UIColor.lightGrayColor()
     calendar.calendarAppearance.dayTextColorOtherMonth = UIColor.lightGrayColor()
-    calendar.calendarAppearance.dayTextFont = UIFont(name: "Helvetica", size: 24)
+    calendar.calendarAppearance.dayTextFont = UIFont(name: "GothamLight", size: 25)
     calendar.calendarAppearance.dayFormat = "d"
   }
   
